@@ -1,0 +1,24 @@
+{
+    "name": "vanes/salon",
+    "description": "proyecto",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+
+            "Model\\": "./models",
+            
+            "Classes\\":"./classes",
+            "Vanes\\Salon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vanessa"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
